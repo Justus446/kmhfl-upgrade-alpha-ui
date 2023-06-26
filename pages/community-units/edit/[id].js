@@ -755,9 +755,9 @@ const CommUnit = (props) => {
                           className="flex items-center justify-end space-x-2 bg-green-500 rounded p-1 px-2"
                         >
                           <span className="text-medium font-semibold text-white">
-                            Save & Continue
+                            Save & Finish
                           </span>
-                          <ChevronDoubleRightIcon className="w-4 h-4 text-white" />
+                          
                         </button>
 
                       </div>
@@ -889,7 +889,7 @@ const CommUnit = (props) => {
                         className="flex items-center justify-end space-x-2 bg-green-500 rounded p-1 px-2"
                       >
                         <span className="text-medium font-semibold text-white">
-                          Save Changes
+                          Save & Finish
                         </span>
                       
                       </button>
