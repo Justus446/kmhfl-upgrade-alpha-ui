@@ -118,7 +118,7 @@ const ByWard = (props) => {
                 {headerName: "Ward", field: "ward_name",   cellRenderer: "LinkCellRenderer"},
                 {headerName: "Number of Community Health Units", field: "number_of_units"},
                 {headerName: "Number of CHVs", field: "chvs"},
-                {headerName: "Number of CHEWs", field: "chews"},
+                {headerName: "Number of CHAs", field: "chews"},
                 {headerName: "Actions", cellRendererFramework: function(params) {
                     return <button  className='rounded bg-green-600 p-2 text-white flex items-center text-sm font-semibold' 
                     onClick={() => {

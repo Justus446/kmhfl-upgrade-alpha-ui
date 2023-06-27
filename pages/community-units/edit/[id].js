@@ -179,7 +179,7 @@ const CommUnit = (props) => {
           }
         });
     } catch (e) {
-      alert.danger("Unable to update CHU Chew details".e.message)
+      alert.danger("Unable to update CHU CHA details".e.message)
     }
   };
 
@@ -340,7 +340,7 @@ const CommUnit = (props) => {
                   value="chews"
                   className="p-2 whitespace-nowrap focus:outline:none flex items-center justify-center text-gray-400 text-base hover:text-black cursor-default border-b-2 border-transparent tab-item"
                 >
-                  CHEWs
+                  CHAs
                 </Tabs.Tab>
                 <Tabs.Tab
                   value="services"
@@ -840,7 +840,7 @@ const CommUnit = (props) => {
                                 />
                               </div>
 
-                              {/* Delete CHEW */}
+                              {/* Delete CHA */}
 
                               <div className="flex-col gap-2">
                                 <div className="flex items-center">

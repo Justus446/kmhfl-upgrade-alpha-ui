@@ -48,7 +48,7 @@ const AddCommunityUnit = (props) => {
 	// Define registration steps
 	const steps = [
 		'Basic Details',
-		'CHEWS: Community Health Extension Workers',
+		'CHA: Community Health Assistant',
 		'Services',
 	];
 
@@ -695,10 +695,10 @@ const AddCommunityUnit = (props) => {
 															body: JSON.stringify({health_unit_workers:payload})
 														}).then(res => res.json()).then((res) => {
 															if (res.details) {
-																alert.error('Failed to add CHEW details')
+																alert.error('Failed to add CHA details')
 															} else {
 
-																alert.success('CHEW details added successfully ')
+																alert.success('CHA details added successfully ')
 															}
 														}).catch(err => {
 															alert.error('An error occured: ' + err)
@@ -730,7 +730,7 @@ const AddCommunityUnit = (props) => {
 											return (
 												<>
 													<h4 className='text-lg uppercase pb-2 border-b border-gray-100 w-full mb-4 font-semibold text-blue-900'>
-														CHEWs: Community Health Extension Workers
+														CHA: Community Health Extension Workers
 													</h4>
 													<form
 														ref={chewFormRef}
@@ -817,7 +817,7 @@ const AddCommunityUnit = (props) => {
 																		
 																
 
-																	{/* Delete CHEW */}
+																	{/* Delete CHA */}
 																	<div className='flex'>
 																		<div className='flex items-center'>
 																			{/* insert red button for deleting */}

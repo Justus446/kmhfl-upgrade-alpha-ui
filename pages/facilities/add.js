@@ -1502,7 +1502,7 @@ function AddFacility(props) {
 																	</label>
 																</div>
 
-																<div className='w-full flex flex-row items-center px-2 justify-  gap-1 gap-x-3 mb-3'>
+																<div className='w-full flex flex-row items-center px-2   gap-1 gap-x-3 mb-3'>
 																	<input
 																		type='checkbox'
 																		ref={openWeekendsRef}	
@@ -1519,7 +1519,7 @@ function AddFacility(props) {
 																	</label>
 																</div>
 
-																<div className='w-full flex flex-row items-center px-2 justify-  gap-1 gap-x-3 mb-3'>
+																<div className='w-full flex flex-row items-center px-2  gap-1 gap-x-3 mb-3'>
 																	<input
 																		type='checkbox'	
 																		ref={openNormalDayRef}
